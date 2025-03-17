@@ -1,0 +1,35 @@
+/* classe css para 
+alteração da cor do 
+fundo menu */
+.menu{
+
+    display: flex;
+    justify-content: space-between;
+}
+/* Id usando para 
+apontar em o stylo de 
+pagina unicamente em 
+um elemetento */
+a{
+    color: rgb(13, 13, 13);
+    font-size: 28px;
+    font-family: "Fira Sans";
+}
+
+.navegador{
+    display: flex;
+    justify-content: space-between;
+    width: 44%;
+}
+
+.conteudo{
+    font-size: 36px;
+    padding: 7px;
+    font-family: "Inter", sans-serif;
+margin-top: 80px;
+    height: 120px;
+}
+
+.subConteudo{
+    font-size: 16px;
+}
