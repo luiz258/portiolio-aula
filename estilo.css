@@ -2,7 +2,6 @@
 alteração da cor do 
 fundo menu */
 .menu{
-
     display: flex;
     justify-content: space-between;
 }
@@ -10,6 +9,9 @@ fundo menu */
 apontar em o stylo de 
 pagina unicamente em 
 um elemetento */
+#link-a{
+    color: darkgoldenrod;
+}
 a{
     color: rgb(13, 13, 13);
     font-size: 28px;
@@ -23,13 +25,62 @@ a{
 }
 
 .conteudo{
-    font-size: 36px;
+    font-size: 40px;
     padding: 7px;
-    font-family: "Inter", sans-serif;
-margin-top: 80px;
-    height: 120px;
+    font-family: "Ponomar", system-ui;
+    margin-top: 100px;
+    margin-bottom: 210px;
+   
+    height: 100px;
+    text-align: center;
+
 }
 
 .subConteudo{
-    font-size: 16px;
+    font-size: 24px;
+}
+
+label{
+    font-size: large;
+}
+.botao-enviar{
+ background: #4bbd2e;
+ color: white;
+ border-radius: 40px;
+}
+#send-button{
+    width: 25px;
+    height: 25px;
+}
+
+input{
+    border-radius: 3px;
+    border: #464646;
+    height: 36px;
+    width: 250px;
+}
+.ferrameta, li{
+
+text-align-last: center;
+}
+img{
+    width: 10rem;
+    height: 10rem;
+}
+#stacks{
+    display: flex;
+   
+    justify-content: space-evenly;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+footer{
+    font-size: 12px;
 }
